@@ -1,0 +1,29 @@
+body {
+	background-image: url("../images/background.gif");
+	background-size: 120%;
+	font-family: "Fontdiner Swanky";
+
+}
+
+#dunker-gifs {
+	float: left;
+	margin-right: 10px;
+}
+
+.dunker {
+	margin: 5px;
+}
+
+.container {
+	background-color: #cbcbcb;
+}
+
+#header {
+	font-family: "Permanent Marker";
+	font-size: 14px;
+}
+
+#favorite-dunker-form{
+	font-family: "Satisfy";
+	font-size:20px;
+}
