@@ -32,7 +32,7 @@ $(document).on("click", '.dunker', function() {
     $("#dunker-gifs").empty();
     var currentDunker = $(this).attr("data-name");
     //var cDClass = "<div class='gif'>";
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+    var queryURL = "//api.giphy.com/v1/gifs/search?q=" +
         currentDunker + "&api_key=dc6zaTOxFJmzC&limit=10";
 
     $.ajax({
